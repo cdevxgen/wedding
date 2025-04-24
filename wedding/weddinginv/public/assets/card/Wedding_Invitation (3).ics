@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+      VERSION:2.0
+      PRODID:-//My Wedding//Event 1.0//EN
+      CALSCALE:GREGORIAN
+      METHOD:PUBLISH
+      BEGIN:VEVENT
+      UID:uid-1731259254181@mywedding.com
+      DTSTAMP:20241110T172054Z
+      SUMMARY:Wedding Reception of Mahesh N Shetty & ShreeRaksha R Shetty
+      DESCRIPTION:Join us for the wedding reception of Mahesh N Shetty & ShreeRaksha R Shetty.
+      DTSTART:20241123T183000Z
+      DTEND:20241123T230000Z
+      LOCATION:Brooklyn, NY
+      END:VEVENT
+      BEGIN:VEVENT
+      UID:uid-1731259254181@mywedding.com
+      DTSTAMP:20241110T172054Z
+      SUMMARY:Muhurtham Ceremony of Mahesh N Shetty & ShreeRaksha R Shetty
+      DESCRIPTION:Celebrate the Muhurtham of Mahesh N Shetty & ShreeRaksha R Shetty.
+      DTSTART:20241124T090000Z
+      DTEND:20241124T101500Z
+      LOCATION:Brooklyn, NY
+      END:VEVENT
+      END:VCALENDAR

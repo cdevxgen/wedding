@@ -1,0 +1,74 @@
+/* HomePage.module.css */
+
+/* Container styles */
+.container {
+    position: relative;
+    height: 100vh; /* Set container height to viewport height */
+    overflow: hidden;
+  }
+  
+  /* Background image styles */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/weddingp.svg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; /* Adjust the opacity as needed */
+  }
+  
+  /* Content styles */
+  .content {
+        position: absolute;
+        top: 65%;
+        left: 56%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #800020; /* Dark red, resembling a velvet tone */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+        transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  /* Hover effect */
+  
+  /* Button styles */
+/* Button styles */
+.button {
+    padding: 12px 24px; /* Increase padding for a larger button */
+    font-size: 22px; /* Increase font size for better readability */
+    cursor: pointer;
+    background: linear-gradient(to right, #3498db, #e74c3c, #2ecc71); /* Gradient with three colors */
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px; /* Increase border radius for a rounded appearance */
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    transition: background 0.3s ease-in-out; /* Add smooth transition effect for background */
+    text-decoration: none;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background: linear-gradient(to right, #2980b9, #c0392b, #27ae60); /* Darken the gradient on hover */
+  }
+  
+  
+  
+  /* Media query for responsiveness */
+@media (max-width: 768px) {
+    .content {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .content{
+        top: 68%;
+        left: 76%;
+    }
+}
+  

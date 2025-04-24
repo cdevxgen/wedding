@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap");
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    gap: 100px;
+    background-image: url('/wedding/hands.png');
+}
+
+.video {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@keyframes slideFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 767px) {
+    .container {
+        background-image: url('/wedding/mobile.png');
+    }
+}
+
+/* Media query for tablet screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        background-image: url('/wedding/tablet.png');
+    }
+}
